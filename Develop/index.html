@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!--Head section contains link to external CSS stylesheet and favicon.png file-->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,8 @@
   <title>Horiseon: Search Engine Optimization</title>
 </head>
 
+<!--Semantic header element defined to contain the navigational
+links on the top of the webpage-->
 <body>
   <header class="header">
     <h1>Hori<span id="seo">seo</span>n</h1>
@@ -21,8 +24,12 @@
       </nav>
   </header>
 
-  <div class="hero"></div>
+  <!--Background image does not need to interact with assistive technology, 
+  no semantic element required-->
+  <div class="background-picture"></div>
 
+  <!--The 'main' element contains the majority of the webpage content. 
+  The content-middle class is used by CSS to style each section-->
   <main class="content-middle">
     <section id="search-engine-optimization">
       <img src="./assets/images/search-engine-optimization.jpg" alt="search-engine-optimization" class="float-left">
@@ -34,6 +41,9 @@
           the right customers for your business.</p>
     </section>
 
+    <!--Each image tag has 'alternative text' defined in case the images 
+    can't load on the customer's browser. Classes used for image tags to 
+    ensure they are positioned correctly-->
     <section id="online-reputation-management">
       <img src="./assets/images/online-reputation-management.jpg" alt="online-reputation-management" class="float-right">
         <h2>Online Reputation Management</h2>
@@ -54,6 +64,8 @@
     </section>
   </main>
 
+  <!--The aside element contains all of the webpage content that is located
+  on the side of the page, away from the main content-->
   <aside class="content-right">
     <section>
       <h3>Lead Generation</h3>
@@ -83,6 +95,8 @@
     </section>
   </aside>
 
+  <!--Footer class defined as this content will always sit at the bottom of the page
+  and will need to be interpreted by assistive technology-->
   <footer class="footer">
     <h2>Made with ❤️️ by Horiseon</h2>
       <p> &copy; 2019 Horiseon Social Solution Services, Inc.</p>
