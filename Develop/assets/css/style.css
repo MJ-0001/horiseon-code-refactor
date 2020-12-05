@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header class contains the style properties for the header container in index.html */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ body {
     color: #ffffff;
 }
 
+/* Header child elements are styled individually */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* ID used to style the 'seo' of Horiseon. Class not required as this is single use */
 #seo {
     color: #d9dcd6;
 }
 
+/* Styling for the nav element inside the header container */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +36,7 @@ body {
     font-size: 20px;
 }
 
+/* List and link elements have specific styling */
 .header li, a {
     display: inline-block;
     margin-left: 25px;
@@ -40,6 +45,7 @@ body {
     text-decoration: none;
 }
 
+/* Style properties for the webpage background image are defined here */
 .background-picture {
     height: 800px;
     width: 100%;
@@ -49,12 +55,14 @@ body {
     background-position: center;
 }
 
+/* This class adds display properties to the content in the centre of the webpage. The class is defined in the 'main' element container in index.html */
 .content-middle {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This class adds style properties to the 'section' child element */
 .content-middle section {
     margin-bottom: 20px;
     padding: 50px;
@@ -62,18 +70,22 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 16px;
 }
 
+/* The height for each image in the 'main' container is defined here */
 .content-middle img {
     max-height: 200px;
 }
 
+/* Styling for the h2 child elements of 'main' */
 .content-middle h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Float classes have been created to position the images that are 
+included in 'main' */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -84,6 +96,7 @@ body {
     margin-left: 25px;
 }
 
+/* This class adds display properties to the content on the right-hand side of the webpage */
 .content-right {
     margin-right: 20px;
     padding: 20px;
@@ -93,13 +106,14 @@ body {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     text-align: center;
 }
 
+/* Using the class defined in the 'aside' container in index.html, individual child elements are styled below */
 .content-right section {
-    margin-bottom: 43px;
+    margin-bottom: 21px;
 }
 
 .content-right h3 {
@@ -113,13 +127,10 @@ body {
     max-width: 150px;
 }
 
-.footer {
+/* Styling for the footer element */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
