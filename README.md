@@ -1,14 +1,14 @@
 # horiseon-code-refactor  
   
-High-level non-functional requirement from client:  
+* High-level non-functional requirement from client:  
 The code base shall meet webpage accessibility standards as per guidelines cited in https://www.w3.org/WAI/standards-guidelines/  
   
-User Story:  
+* User Story:  
 AS A marketing agency  
 I WANT a codebase that follows accessibility standards  
 SO THAT our own site is optimized for search engines  
   
-Acceptance Criteria:  
+* Acceptance Criteria:  
 GIVEN a webpage meets accessibility standards  
 WHEN I view the source code  
 THEN I find semantic HTML elements  
@@ -21,9 +21,12 @@ THEN they fall in sequential order
 WHEN I view the title element  
 THEN I find a concise, descriptive title  
   
-Test Strategy:  
+* Test Strategy:  
 Operational Acceptance Testing  
 User Acceptance Testing  
 
-Screenshot of finished webpage:  
+#
+
+* Screenshot of finished webpage:  
+
 ![refactored code screenshot](Horiseon_Screenshot.png)  
