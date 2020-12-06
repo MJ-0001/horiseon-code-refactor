@@ -55,7 +55,8 @@ body {
     background-position: center;
 }
 
-/* This class adds display properties to the content in the centre of the webpage. The class is defined in the 'main' element container in index.html */
+/* This class adds display properties to the content in the centre of the webpage. 
+The class is defined in the 'main' element container in index.html */
 .content-middle {
     width: 75%;
     display: inline-block;
@@ -96,7 +97,8 @@ included in 'main' */
     margin-left: 25px;
 }
 
-/* This class adds display properties to the content on the right-hand side of the webpage */
+/* This class adds display properties to the content on the 
+right-hand side of the webpage */
 .content-right {
     margin-right: 20px;
     padding: 20px;
@@ -111,7 +113,8 @@ included in 'main' */
     text-align: center;
 }
 
-/* Using the class defined in the 'aside' container in index.html, individual child elements are styled below */
+/* Using the class defined in the 'aside' container in 
+index.html, individual child elements are styled below */
 .content-right section {
     margin-bottom: 21px;
 }
